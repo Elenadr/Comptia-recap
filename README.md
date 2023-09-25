@@ -100,11 +100,43 @@ With different implementations of cloud computing, you need to be familiar with 
   services available to multiple organizations with common needs, such as real-time
   access to a back-end database.
 
+### Vpn
+* With a **site-to-site VPN**, the secure tunnel is created
+by a central device at each office location. All clients on each network send data through the
+central encrypted tunnel, which gives the benefit of not needing to configure VPN software
+on each client system. Another scenario where VPN can be used is with wireless networks. Because wireless
+security protocols are known to have flaws, you can treat the wireless network as an
+untrusted network and have a wireless client create a VPN connection to the server before
+allowing the wireless client to access the corporate network.
+up).
+
+* The benefit of **always-on VPN** is that there is no reliance on the user; the system
+automatically makes the connection and the feature is transparent to the user.
+
+* **Full tunnel** is the traditional implementation in which a user launches VPN software
+from a remote network, such as their home network, to create an encrypted tunnel between
+their system and the corporate network VPN server. One of the problems users experience
+with full tunnel is that they cannot access any resources on the LAN they are connected to
+(in this case, the home network); for example, if they want to print to their home printer,
+they cannot because technically once the VPN connection is made, the user is on the
+corporate network and can access only those resources.
+
+* **Split tunnel** is a VPN feature that allows the user to access the corporate network through
+the secure VPN tunnel after the VPN software has been launched, but retain the capability
+to access LAN resources. The split tunnel feature can specify which destination systems are
+to have their traffic delivered through the tunnel and which traffic stays on the LAN. This is
+known as split-include tunnel.
+
+
+
 ## Acronimos 
  Un SOC (Security Operations Center) realiza una variedad de operaciones de seguridad para proteger los sistemas y datos de una organizació
-
+potentially unwanted program (PUP)
 a Computer
 Incident Response Team, or CIRT).
+ El RTO o Recovery Time Objective 
+ FDE Full  disk encryption
+ Unified Threat Management (UTM)
 
 ---
 Nic Teaming es una agrupación de tarjetas de red de un equipo, principalmente utilizado en  sistemas Windows Server con posibilidad de activarse en Windows 10 siempre que el equipo disponga de 2 o más tarjetas de red. 
