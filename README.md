@@ -1,13 +1,11 @@
-# Comptia recap
-
 # Index
 * [General concepts](#general-concepts)  
 * [Backups](#backups)
-* [Signing methods](#Signing-methods)
+* [Signing methods](#signing-methods)
 * [Enviroments](#enviroments)  
-* [Cloud Computing Models](#Cloud-Computing-Models)
-    *[Different ways to implement cloud services](#Different-ways-to-implement-cloud-services)   
-* [Vpn](#Vpn)
+* [Cloud Computing Models](#cloud-computing-models)
+   * [Different ways to implement cloud services](#different-ways-to-implement-cloud-services)   
+* [Vpn](#vpn)
 * [Acronyms](#acronyms)
 * [Autor](#autor)
 * [Licencia](#licencia)
@@ -57,8 +55,10 @@ working for the company but also after the work engagement has completed.
 ■ Sandboxing Sandboxing is the process of creating separate running environments
 for applications and ensuring you restrict communication between these running
 environments.
+
 ■ Environment You should create different environments for different stages of your
 deployment. The following outlines the four environments you should have:
+
   * Development The development system or systems are used to develop or
   create the design of the solution.
   * Test Once the design is created, it is then tested on a test system or systems.
@@ -70,6 +70,7 @@ deployment. The following outlines the four environments you should have:
 ■ Secure baseline A secure baseline is a set of configuration settings that places a
 system in a secure state. Each system should have a secure baseline applied to ensure
 that it meets the security requirements.
+
 ■ Integrity measurement Integrity measurement in computer security is ensuring
 that you are aware of any changes that may occur to an environment. To implement
 integrity of the system, be sure to use auditing features and hashing technologies to
@@ -79,25 +80,30 @@ track changes to the system and files.
 With different implementations of cloud computing, you need to be familiar with these terms for the Security+ certification exam:
   ■ Software as a Service (SaaS) With SaaS, the application is provided across the
   Internet, which means that you do not need to install the application at your site.
+  
   ■ Platform as a Service (PaaS) Provides the computing platform as a service, which
   includes the hardware and software required to run a specific system such as an
   e-mail server or database server.
+  
   ■ Infrastructure as a Service (IaaS) Provides computers, data centers, and network
   equipment as a service that the customer pays a monthly fee for based on the
   amount of resources used.
   
   #### Different ways to implement cloud services
-    ■ Private cloud A private cloud means that you create the cloud services internally
+  ■ Private cloud A private cloud means that you create the cloud services internally
   for your company and your company leverages those services. With a private cloud,
   the data is stored inside the company.
+  
   ■ Public cloud A public cloud is provided by a service provider, and your data stored
   in the cloud would be located on that provider’s servers. It is important to stress that
   many organizations are not allowed to store sensitive data in a public cloud where
   the servers are hosted out of the country. It should be noted that cloud providers are
   creating data centers in different countries to address this concern.
+  
   ■ Hybrid cloud A hybrid cloud is a mix of public and private cloud. The company
   may store nonsensitive data in the public cloud, but keep sensitive data stored in the
   private cloud.
+  
   ■ Community cloud This type of cloud pools computing resources to make IT
   services available to multiple organizations with common needs, such as real-time
   access to a back-end database.
@@ -128,7 +134,6 @@ the secure VPN tunnel after the VPN software has been launched, but retain the c
 to access LAN resources. The split tunnel feature can specify which destination systems are
 to have their traffic delivered through the tunnel and which traffic stays on the LAN. This is
 known as split-include tunnel.
-
 
 
 ## Acronyms 
