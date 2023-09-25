@@ -73,10 +73,38 @@ that you are aware of any changes that may occur to an environment. To implement
 integrity of the system, be sure to use auditing features and hashing technologies to
 track changes to the system and files.
 
+### Cloud Computing Models
+With different implementations of cloud computing, you need to be familiar with these terms for the Security+ certification exam:
+  ■ Software as a Service (SaaS) With SaaS, the application is provided across the
+  Internet, which means that you do not need to install the application at your site.
+  ■ Platform as a Service (PaaS) Provides the computing platform as a service, which
+  includes the hardware and software required to run a specific system such as an
+  e-mail server or database server.
+  ■ Infrastructure as a Service (IaaS) Provides computers, data centers, and network
+  equipment as a service that the customer pays a monthly fee for based on the
+  amount of resources used.
+  
+  #### Different ways to implement cloud services
+    ■ Private cloud A private cloud means that you create the cloud services internally
+  for your company and your company leverages those services. With a private cloud,
+  the data is stored inside the company.
+  ■ Public cloud A public cloud is provided by a service provider, and your data stored
+  in the cloud would be located on that provider’s servers. It is important to stress that
+  many organizations are not allowed to store sensitive data in a public cloud where
+  the servers are hosted out of the country. It should be noted that cloud providers are
+  creating data centers in different countries to address this concern.
+  ■ Hybrid cloud A hybrid cloud is a mix of public and private cloud. The company
+  may store nonsensitive data in the public cloud, but keep sensitive data stored in the
+  private cloud.
+  ■ Community cloud This type of cloud pools computing resources to make IT
+  services available to multiple organizations with common needs, such as real-time
+  access to a back-end database.
+
 ## Acronimos 
  Un SOC (Security Operations Center) realiza una variedad de operaciones de seguridad para proteger los sistemas y datos de una organizació
 
-
+a Computer
+Incident Response Team, or CIRT).
 
 ---
 Nic Teaming es una agrupación de tarjetas de red de un equipo, principalmente utilizado en  sistemas Windows Server con posibilidad de activarse en Windows 10 siempre que el equipo disponga de 2 o más tarjetas de red. 
