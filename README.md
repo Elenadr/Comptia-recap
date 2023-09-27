@@ -6,6 +6,8 @@
 * [Cloud Computing Models](#cloud-computing-models)
    * [Different ways to implement cloud services](#different-ways-to-implement-cloud-services)   
 * [Vpn](#vpn)
+* Acces Control models
+   * User Account Types
 * [Acronyms](#acronyms)
 * [Autor](#autor)
 * [Licencia](#licencia)
@@ -26,7 +28,15 @@ hacker inserts into the card reader a “shimmer” that can intercept the data 
 improvement mindset, we are always looking for better ways to improve our code.
 When an application has problems running in an environment, a shim can be created and applied to the application to fix compatibility issues. As it relates to driver manipulation, a shim can be created to allow a driver to run on an OS that the driver had compatibility issues with. From a security point of view, shimming an application could create a new vector for attacks because rewriting functions in a shim and applying the shim to the application or driver could introduce a flaw by accident, or on purpose if the person who created the shim is the hacker.
 
-* **Nic Teaming** es una agrupación de tarjetas de red de un equipo, principalmente utilizado en  sistemas Windows Server con posibilidad de activarse en Windows 10 siempre que el equipo disponga de 2 o más tarjetas de red. Esta función permite agrupar las tarjetas de red físicas o virtuales disponibles en un equipo y  agruparlas para que se produzca un balanceo de carga proporcionando además tolerancia a  fallos y alta disponibilidad. 
+* **Nic Teaming** es una agrupación de tarjetas de red de un equipo, principalmente utilizado en  sistemas Windows Server con posibilidad de activarse en Windows 10 siempre que el equipo disponga de 2 o más tarjetas de red. Esta función permite agrupar las tarjetas de red físicas o virtuales disponibles en un equipo y  agruparlas para que se produzca un balanceo de carga proporcionando además tolerancia a  fallos y alta disponibilidad.
+* **Race conditions **A race condition is a software programming issue where two
+(or more) threads (a thread is a unit of work) have access to shared data. Problems
+can arise if both threads are accessing the shared data and one thread modifies the
+shared data while the other thread is executing logic based on the value of the thread
+data before the data was changed. To solve race conditions, programmers put locks
+on the shared data so that only one thread can access the shared data at one time.
+Applications vulnerable to race conditions could have the hacker access a resource
+when he/she should not be able to (because the resource should be locked).
 ## Backups
 *  **Full backups** back up every file that is selected and then clear the archive bit. necessitates a large storage capacity and a lot of time.
 *  **Incremental backups** back up any files that have changed and then clear the archive bit so that the next backup will not back the file up (unless you do a full backup).
@@ -135,8 +145,28 @@ to access LAN resources. The split tunnel feature can specify which destination 
 to have their traffic delivered through the tunnel and which traffic stays on the LAN. This is
 known as split-include tunnel.
 
+## Access control
+* **Discretionary access control (DAC)** involves configuring permissions on a resource.
+* **mandatory access control** involves employees gaining access to resources based on their clearance level and the data classification
+label assigned to the resource.
+* **role-based access control** involves placing users into containers (known as roles) and those roles are assigned privileges to perform certain tasks. When a user is placed in the role, they inherit any capabilities that the role has been assigned.
+### User Account Types
 
-## Acronyms 
+* User account Each employee within your organization should have a separate
+user account assigned to them that they use to access the network and systems.
+* Shared and generic accounts/credentials From time to time you may consider
+creating an account that is shared by multiple employees because they share the
+same job role.
+* Guest accounts A guest account is an account that can be used to access a system
+if a person does not have an account.
+* Service accounts When software runs on the system, it needs to run as a specific user so that
+the software can be assigned permissions. The user account that you associate with
+a piece of software is known as a service account because it is a feature that is used
+by services running within the operating systems as well.
+* Privileged accounts has extra permissions
+outside of what is assigned to a typical user.
+
+### Acronyms 
 
   SOC (Security Operations Center) realiza una variedad de operaciones de seguridad para proteger los sistemas y datos de una organizació
   PUP, potentially unwanted program
@@ -145,6 +175,9 @@ known as split-include tunnel.
   FDE, Full  disk encryption
   UTM, Unified Threat Management
   HSM The Hardware Security Module is a card that is added to a system that contains a crypto-processor to perform asymmetric cryptographic functions at the hardware level. It also contains chips that store the crypto-keys to be used by the system.
+  CSR, certificate signing request
+  CRL, certificate revocation list 
+  CA, certificate authority
 
 ---
 
