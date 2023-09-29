@@ -6,7 +6,7 @@
 * [Cloud Computing Models](#cloud-computing-models)
    * [Different ways to implement cloud services](#different-ways-to-implement-cloud-services)   
 * [Vpn](#vpn)
-* Acces Control models
+* [Acces Control models](#access-control)
    * User Account Types
 * [Acronyms](#acronyms)
 * [Autor](#autor)
@@ -18,6 +18,28 @@ List of concepts that I had answer wrong when I am taking tests.
 
 ## General concepts
 
+* protocols that
+offer authentication, authorization, and
+
+accounting (AAA) services to the network.
+Remember that RADIUS, DIAMETER, and
+TACACS+ offer AAA services.
+* WPA2 uses CCMP with AES as the
+symmetric encryption algorithm for data
+privacy, while WPA uses TKIP.
+* SAML Security Assertion Markup Language is an XML standard that is designed
+to allow systems to exchange authentication and authorization information. This is
+often used with identity federation and claims-based authentication. uses SAML tokens and federation services for SSO (single sign-on) applications.
+* POP3 and IMAP4 are the
+Internet protocols for reading e-mail,
+whereas SMTP is the Internet protocol for
+sending e-mail.
+* Simple Network Management Protocol v3 (SNMPv3) This version should
+be used over earlier versions of SNMP because it provides authentication and
+communication encryption features. SNMP is used for monitoring and managing
+devices on the network, such as routers and switches.
+* Secure Copy Protocol (SCP) is responsible for copying files from a remote server to
+the local system over a secure connection, ensuring that data in transit is kept confidential.
 * **NetFlow** is a network protocol developed by Cisco for collecting IP traffic information and monitoring network flow. By analyzing NetFlow data, you can get a picture of network traffic flow and volume. Netflow is a Cisco propietary solition to monitor traffic thst psddrd through s router.
   
 * **Geo-tagging** Verify whether the application is using any geo-tagging features that store geographical identifying information with media such as photos or video. This could be a privacy concern, as physical location could be determined from this geo-
@@ -178,6 +200,9 @@ outside of what is assigned to a typical user.
   CSR, certificate signing request
   CRL, certificate revocation list 
   CA, certificate authority
+  CBC, Cipher Block Chaining
+  ALE, the annual loss expectancy 
+  ARO, the annual rate of occurrence
 
 ---
 
