@@ -7,7 +7,8 @@
    * [Different ways to implement cloud services](#different-ways-to-implement-cloud-services)   
 * [Vpn](#vpn)
 * [Acces Control models](#access-control)
-   * User Account Types
+   * [User Account Types](#user-account-types)
+* [Forensics](#forensics)
 * [Acronyms](#acronyms)
 * [Autor](#autor)
 * [Licencia](#licencia)
@@ -188,6 +189,18 @@ a piece of software is known as a service account because it is a feature that i
 by services running within the operating systems as well.
 * Privileged accounts has extra permissions
 outside of what is assigned to a typical user.
+
+### Forensics
+
+For the Security+ exam,
+know that you should collect data first
+from volatile areas and then move to the
+nonvolatile areas. This is known as the order
+
+of volatility—you should collect data in the
+order of volatility. The order of volatility is
+memory (RAM), swap file, hard disk, and then
+finally CD/DVD-ROM.
 
 ### Acronyms 
 
