@@ -17,7 +17,8 @@
 List of concepts that I had answer wrong when I am taking tests.
 
 ## General concepts
-
+* Electromagnetic shielding
+Traducción del inglés-En ingeniería eléctrica, el blindaje electromagnético es la práctica de reducir o bloquear el campo electromagnético en un espacio con barreras hechas de materiales conductores o magnéticos.
 * protocols that
 offer authentication, authorization, and
 
@@ -203,6 +204,7 @@ outside of what is assigned to a typical user.
   CBC, Cipher Block Chaining
   ALE, the annual loss expectancy 
   ARO, the annual rate of occurrence
+  SPOF, single point of failure n punto único de fallo o punto de fallo único​ es un componente de un sistema que tras un fallo en su funcionamiento ocasiona un fallo global en el sistema completo, dejándolo inoperante. Un SPOF puede ser un componente de hardware, software o eléctric
 
 ---
 
