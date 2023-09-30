@@ -1,5 +1,6 @@
 # Index
-* [General concepts](#general-concepts)  
+* [General concepts](#general-concepts)
+* [Bluetooth](#bluetooth)  
 * [Backups](#backups)
 * [Signing methods](#signing-methods)
 * [Enviroments](#enviroments)  
@@ -61,7 +62,19 @@ data before the data was changed. To solve race conditions, programmers put lock
 on the shared data so that only one thread can access the shared data at one time.
 Applications vulnerable to race conditions could have the hacker access a resource
 when he/she should not be able to (because the resource should be locked).
+
+## Bluetooth
+
+■ Bluesnarfing A Bluetooth exploit that allows the hacker to connect to a Bluetooth-
+enabled phone and to retrieve data off the phone
+
+■ Bluejacking The sending of unsolicited messages from one Bluetooth device to
+another Bluetooth device
+■ Bluebugging A Bluetooth exploit that involves the hacker gaining access to the
+phone and leveraging its full capabilities, including making calls using the AT
+command set on the phone
 ## Backups
+
 *  **Full backups** back up every file that is selected and then clear the archive bit. necessitates a large storage capacity and a lot of time.
 *  **Incremental backups** back up any files that have changed and then clear the archive bit so that the next backup will not back the file up (unless you do a full backup).
 *  **Differential backups** back up any files that have had changes but do not clear the archive bit. Because the archive bit is not cleared, each differential backup will back up all files changed since the last full backup.
