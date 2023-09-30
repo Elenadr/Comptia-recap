@@ -42,7 +42,11 @@ be used over earlier versions of SNMP because it provides authentication and
 communication encryption features. SNMP is used for monitoring and managing
 devices on the network, such as routers and switches.
 * Secure Copy Protocol (SCP) is responsible for copying files from a remote server to
+the local system over a secure connection, ensuring that data in transit is kept confidential.SCP
+The Secure Copy Protocol (SCP) is responsible for copying files from a remote server to
 the local system over a secure connection, ensuring that data in transit is kept confidential.
+A number of SCP products use an SSH connection to ensure the security of the secure
+copy operation.
 * **NetFlow** is a network protocol developed by Cisco for collecting IP traffic information and monitoring network flow. By analyzing NetFlow data, you can get a picture of network traffic flow and volume. Netflow is a Cisco propietary solition to monitor traffic thst psddrd through s router.
   
 * **Geo-tagging** Verify whether the application is using any geo-tagging features that store geographical identifying information with media such as photos or video. This could be a privacy concern, as physical location could be determined from this geo-
