@@ -221,20 +221,22 @@ finally CD/DVD-ROM.
 
 ### Acronyms 
 
-  SOC (Security Operations Center) realiza una variedad de operaciones de seguridad para proteger los sistemas y datos de una organizació
-  PUP, potentially unwanted program
-  CIRT, Computer Incident Response Team.
-  RTO, Recovery Time Objective 
-  FDE, Full  disk encryption
-  UTM, Unified Threat Management
-  HSM The Hardware Security Module is a card that is added to a system that contains a crypto-processor to perform asymmetric cryptographic functions at the hardware level. It also contains chips that store the crypto-keys to be used by the system.
-  CSR, certificate signing request
-  CRL, certificate revocation list 
-  CA, certificate authority
-  CBC, Cipher Block Chaining
-  ALE, the annual loss expectancy 
-  ARO, the annual rate of occurrence
-  SPOF, single point of failure n punto único de fallo o punto de fallo único​ es un componente de un sistema que tras un fallo en su funcionamiento ocasiona un fallo global en el sistema completo, dejándolo inoperante. Un SPOF puede ser un componente de hardware, software o eléctric
+  * SOC (Security Operations Center) realiza una variedad de operaciones de seguridad para proteger los sistemas y datos de una organizació
+  * PUP, potentially unwanted program
+  * CIRT, Computer Incident Response Team.
+  * RTO, Recovery Time Objective 
+  * FDE, Full  disk encryption
+  * UTM, Unified Threat Management
+  * HSM The Hardware Security Module is a card that is added to a system that contains a crypto-processor to perform asymmetric cryptographic functions at the hardware level. It also contains chips that store the crypto-keys to be used by the system.
+  * CSR, certificate signing request
+  * CRL, certificate revocation list 
+  * CA, certificate authority
+  * CBC, Cipher Block Chaining
+  * ALE, the annual loss expectancy 
+  * ARO, the annual rate of occurrence
+  * SPOF, single point of failure n punto único de fallo o punto de fallo único​ es un componente de un sistema que tras un fallo en su funcionamiento ocasiona un fallo global en el sistema completo, dejándolo inoperante. Un SPOF puede ser un componente de hardware, software o eléctric
+  * HMAC, Hash-based Message
+Authentication Code
 
 ---
 
