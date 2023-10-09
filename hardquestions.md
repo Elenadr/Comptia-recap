@@ -44,4 +44,12 @@ Which of the following AES modes of operation would meet this integrity-only req
 * D. GCM
 * E. CFB
 
+6. Which of the following are used to increase the computing time it takes to brute force a password using an offline attack? (Select TWO)
+A. XOR
+B. PBKDF2
+C. bcrypt
+D. HMAC
+E. RIPEMD
+PBKDF2 (Password-Based Key Derivation Function) is a key stretching algorithm. It can be used to hash passwords in a computationally intensive manner, so that dictionary and brute-force attacks are less effective.
 
+bcrypt is designed to be slow and not to allow any shortcut. It takes more effort to brute force attack the password. The slower the algorithm, the less guesses can be made per second.
