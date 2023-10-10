@@ -53,3 +53,13 @@ E. RIPEMD
 PBKDF2 (Password-Based Key Derivation Function) is a key stretching algorithm. It can be used to hash passwords in a computationally intensive manner, so that dictionary and brute-force attacks are less effective.
 
 bcrypt is designed to be slow and not to allow any shortcut. It takes more effort to brute force attack the password. The slower the algorithm, the less guesses can be made per second.
+
+7. An organization is expanding its network team. Currently, it has local accounts on all network devices, but with growth, it wants to move to centrally managed authentication. Which of the following are the BEST solutions for the organization? (Select TWO)
+   * TACACS+
+   * CHAP
+   * LDAP
+   * RADIUS
+   * MSCHAPv2
+
+Either RADIUS or TACACS+ for centrally managed authentication, authorization, and accounting (AAA).
+
