@@ -63,3 +63,13 @@ bcrypt is designed to be slow and not to allow any shortcut. It takes more effor
 
 Either RADIUS or TACACS+ for centrally managed authentication, authorization, and accounting (AAA).
 
+8, An attacker captures the encrypted communication between two parties for a week, but is unable to decrypt the messages. The attacker then compromises the session key during one exchange and successfully compromises a single message. The attacker plans to use this key to decrypt previously captured and future communications, but is unable to.
+This is because the encryption scheme in use adheres to:
+  * Asymmetric encryption
+  * Out-of-band key exchange
+  * Perfect forward secrecy
+  * Secure key escrow
+
+Perfect forward secrecy The term used to describe a system that generates
+random public keys (ephemeral key) for each session so that secret key exchange can
+occur during the communication.
