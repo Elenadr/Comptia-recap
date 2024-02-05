@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "35ba1c8f2559ba56",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3b2f9c20143e59d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2bdf41b242dc51f4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "46759b768d30d41c",
+    "type": "split",
+    "children": [
+      {
+        "id": "abd3ea343f4c88a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3fff5463878a7fa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3494c7b08d82915b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2fb4017cb8b4496a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bb3ee78e4d3f9c66",
+    "type": "split",
+    "children": [
+      {
+        "id": "cfa70d87ff7f050c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39e499b0f38b31f1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "eb7ef3246b7d9ee2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "469a0d086e925a9c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6486216f28e6aecf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo canvas": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "2bdf41b242dc51f4",
+  "lastOpenFiles": [
+    "README.md",
+    "Comptia/Preguntas Falladas.md",
+    "Pasted.md",
+    "Comptia/Conceptos.md",
+    "Comptia/Progreso.md",
+    "Comptia/hardquestions.md",
+    "Comptia/examtopics.md",
+    "Images/Pasted image 20240131130103.png",
+    "Images/Pasted image 20240131125719.png",
+    "Images/Pasted image 20240127134723.png",
+    "Images/Pasted image 20240131130712.png",
+    "Images/Pasted image 20240131125647.png",
+    "Images/Pasted image 20240205123623.png",
+    "Images/Pasted image 20240202111346.png",
+    "Images/Pasted image 20240202104602.png",
+    "Images/Pasted image 20240131130501.png",
+    "Images/Pasted image 20240202111140.png",
+    "Images",
+    "Comptia"
+  ]
+}

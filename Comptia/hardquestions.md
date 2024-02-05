@@ -1,3 +1,4 @@
+[[Preguntas Falladas]]
 1. A system administrator is configuring a site-to-site VPN tunnel. Which of the following should be configured on the VPN concentrator during the IKE phase?
 * A. RIPEMD
 * B. ECDHE
