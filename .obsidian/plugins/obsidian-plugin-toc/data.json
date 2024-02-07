@@ -1,0 +1,8 @@
+{
+  "minimumDepth": 4,
+  "maximumDepth": 6,
+  "listStyle": "number",
+  "useMarkdown": true,
+  "title": "Índice",
+  "githubCompat": true
+}

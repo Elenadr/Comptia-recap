@@ -11,11 +11,40 @@
             "id": "2bdf41b242dc51f4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Comptia/Preguntas Falladas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24dd69d8abd21283",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Comptia/Conceptos.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "015650eb4841a498",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Comptia/547 exam.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -81,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Comptia/547 exam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Comptia/547 exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Comptia/547 exam.md"
+              }
             }
           }
         ]
@@ -138,25 +171,30 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "2bdf41b242dc51f4",
+  "active": "015650eb4841a498",
   "lastOpenFiles": [
-    "README.md",
-    "Comptia/Preguntas Falladas.md",
-    "Pasted.md",
+    "Pasted image 20240207105149.png",
+    "Pasted image 20240207105138.png",
+    "Pasted image 20240207105049.png",
+    "Pasted image 20240207105034.png",
+    "Pasted image 20240207105017.png",
+    "Pasted image 20240207105003.png",
+    "Pasted image 20240207104938.png",
+    "Pasted image 20240207104923.png",
+    "Pasted image 20240207104826.png",
+    "Pasted image 20240207104813.png",
+    "Pasted image 20240207104757.png",
     "Comptia/Conceptos.md",
+    "Comptia/examtopics.md",
+    "2024-02-07.md",
+    "Comptia/547 exam.md",
+    "Sin título",
+    "Sin título.md",
+    "Comptia/Preguntas Falladas.md",
+    "README.md",
+    "Pasted.md",
     "Comptia/Progreso.md",
     "Comptia/hardquestions.md",
-    "Comptia/examtopics.md",
-    "Images/Pasted image 20240131130103.png",
-    "Images/Pasted image 20240131125719.png",
-    "Images/Pasted image 20240127134723.png",
-    "Images/Pasted image 20240131130712.png",
-    "Images/Pasted image 20240131125647.png",
-    "Images/Pasted image 20240205123623.png",
-    "Images/Pasted image 20240202111346.png",
-    "Images/Pasted image 20240202104602.png",
-    "Images/Pasted image 20240131130501.png",
-    "Images/Pasted image 20240202111140.png",
     "Images",
     "Comptia"
   ]

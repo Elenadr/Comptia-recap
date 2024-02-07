@@ -1,4 +1,7 @@
-Índice de contenidos
+
+[[Progreso]]
+
+Índice
 
 1. [Race Condiction](#race-condiction)
 1. [SSL Stripping](#ssl-stripping)
@@ -8,11 +11,21 @@
 1. [Invoice scam](#invoice-scam)
 1. [DMARC](#dmarc)
 1. [MSSP](#mssp)
-1. [Certificate Types](#certificate-types)
 1. [Wildcard](#wildcard)
 1. [SAN](#san)
-[[Progreso]]
-
+1. [Self-signed](#self-signed)
+1. [Code signing](#code-signing)
+1. [Backup Completo (Full Backup):](#backup-completo-full-backup)
+1. [**Backup Incremental:**](#backup-incremental)
+1. [**Backup Diferencial:**](#backup-diferencial)
+1. [**Password Spraying (Aspersión de Contraseñas):**](#password-spraying-aspersi%C3%B3n-de-contrase%C3%B1as)
+1. [**Rainbow Table (Tabla Arcoíris):**](#rainbow-table-tabla-arco%C3%ADris)
+1. [**Unified Threat Management (Gestión Unificada de Amenazas):**](#unified-threat-management-gesti%C3%B3n-unificada-de-amenazas)
+1. [**Round Robin:**](#round-robin)
+1. [**Active-Passive:**](#active-passive)
+1. [Staging](#staging)
+1. [Dkim](#dkim)
+1. [Wids](#wids)
 
 
 #### Race Condiction
@@ -137,14 +150,14 @@ Los atacantes comparan los hash de las contraseñas cifradas en una base de dato
 #### **Unified Threat Management (Gestión Unificada de Amenazas):**
 
 - En el ámbito de la seguridad informática, UTM se refiere a "Unified Threat Management" o Gestión Unificada de Amenazas. Es una solución integral que integra diversas funciones de seguridad en una única plataforma. Estas funciones pueden incluir firewall, antivirus, filtrado de contenido, prevención de intrusiones, control de aplicaciones y otras medidas para proteger las redes de las amenazas cibernéticas.
-**Round Robin:**
+#### **Round Robin:**
 
 - **Definición:** La estrategia Round Robin distribuye equitativamente las solicitudes de los clientes entre varios servidores en un ciclo secuencial.
-**Active-Passive:**
+#### **Active-Passive:**
 
 - **Definición:** En una configuración Active-Passive, se tiene un servidor principal (activo) y uno o más servidores secundarios (pasivos) que están en espera en caso de que el servidor principal falle.
 
-Staging
+####  Staging
 Enviroment in wich patches will be deployed prior to being put in operational status.
 
 **■ Environment** You should create different environments for different stages of your
@@ -158,5 +171,8 @@ performed to ensure that the solution works.
 * **■ Production** After staging, you then place the solution into production.
 
 
-Dkim
+#### Dkim
 Se agrega un encabezado DKIM al mensaje que contiene la firma digital y una referencia a la clave pública correspondiente. Este encabezado indica que el mensaje ha sido firmado digitalmente utilizando DKIM.
+
+#### Wids
+A Wireless Intrusion Detection System (WIDS) is a network security technology that monitors wireless networks for unauthorized or malicious activity. It works by analyzing the traffic on a wireless network and identifying any suspicious behavior or potential security threats. WIDS can help organizations detect and respond to attacks, such as rogue access points, unauthorized devices, or attempts to exploit vulnerabilities in the wireless network.
