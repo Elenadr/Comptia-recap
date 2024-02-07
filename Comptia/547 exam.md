@@ -3,7 +3,8 @@
 ![[Pasted image 20240207130408.png]]
 * Tercera tirada 281 - 420 --> FAIL (700/1000)
 ![[Pasted image 20240207150808.png]]
-* Cuarta tirada 421 - 547
+* Cuarta tirada 421 - 547 --> FAIL (622/1000)
+![[Pasted image 20240207171629.png]]
 ----
 ## Errores
 
