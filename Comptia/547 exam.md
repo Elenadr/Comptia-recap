@@ -60,3 +60,10 @@ When AH tunnel mode is used, the entire packet is signed for integrity and authe
 ![[Pasted image 20240207133944.png]]
 
 ![[Pasted image 20240207134050.png]]
+
+A database administrator wants to grant access to an application that will be reading and writing data to a database. The database is shared by other applications also used by the finance department. Which of the following account types is MOST appropriate for this purpose?  
+
+- A. [[Conceptos#Service accounts |Service]]
+- B. Shared
+- C. Generic
+- D. Admin

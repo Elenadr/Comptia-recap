@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Comptia/547 exam.md",
+                "file": "Comptia/Conceptos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Comptia/547 exam.md",
+                "file": "Comptia/Conceptos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Comptia/547 exam.md"
+                "file": "Comptia/Conceptos.md"
               }
             }
           }
@@ -171,8 +171,20 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "015650eb4841a498",
+  "active": "24dd69d8abd21283",
   "lastOpenFiles": [
+    "Comptia/Preguntas Falladas.md",
+    "Comptia/hardquestions.md",
+    "Comptia/Conceptos.md",
+    "Sin título.md",
+    "Images/Pasted image 20240209182234.png",
+    "Comptia/547 exam.md",
+    "Comptia/Conceptos^.md",
+    "Comptia/Conceptos.md^.md",
+    "Comptia/Conceptos.md^Service.md",
+    "Comptia/Concepts.md",
+    "Images/Pasted image 20240209165353.png",
+    "Comptia/examtopics.md",
     "Images/Pasted image 20240207171629.png",
     "Images/Pasted image 20240207150808.png",
     "Images/Pasted image 20240207134050.png",
@@ -181,20 +193,11 @@
     "Images/Pasted image 20240207133807.png",
     "Images/Pasted image 20240207133713.png",
     "Images/Pasted image 20240207133616.png",
-    "Images/Pasted image 20240207133253.png",
-    "Images/Pasted image 20240207133140.png",
-    "Images/Pasted image 20240207133031.png",
-    "Comptia/Conceptos.md",
-    "Comptia/examtopics.md",
-    "Comptia/547 exam.md",
     "2024-02-07.md",
     "Sin título",
-    "Sin título.md",
-    "Comptia/Preguntas Falladas.md",
     "README.md",
     "Pasted.md",
     "Comptia/Progreso.md",
-    "Comptia/hardquestions.md",
     "Images",
     "Comptia"
   ]

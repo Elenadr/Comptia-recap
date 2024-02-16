@@ -28,6 +28,30 @@
 1. [Wids](#wids)
 
 
+#### A legal hold 
+s a process in which an organization is required to preserve all relevant electronically stored information (ESI) and paper documents that may be related to a pending or anticipated legal action. It is typically initiated by law enforcement or legal authorities when there is an investigation, lawsuit, or audit involving the organization. During a legal hold, the organization is prohibited from destroying or altering any potentially relevant data or documents to ensure that evidence is preserved and available for the legal process.
+#### Service accounts 
+Secure operating systems such as Windows and Linux require
+that everything authenticates to the system, whether it is a user or a piece of
+software. When software runs on the system, it needs to run as a specific user so that
+the software can be assigned permissions. The user account that you associate with
+a piece of software is known as a service account because it is a feature that is used
+by services running within the operating systems as well. When creating a service
+account (the user account that the software application will be configured to use),
+you typically configure the service account with a strong password and specify that
+the password never expires.
+#### Dns Poisoning
+
+domain resolving the wrong IP address.
+
+#### On path - MITM
+A very important type of network attack is a man-in-the-middle (MITM) attack. With an
+MITM, the hacker inserts himself in the middle of two systems that are communicating.
+As shown in Figure 4-6, after the hacker inserts himself between the two parties that arecommunicating, he then passes information back and forth between the two. For example,
+when User 1 sends data to User 2, the information is actually sent to the hacker first, who
+then forwards the information to User 2.
+
+![](Pasted%20image%2020240209165353.png)
 #### Race Condiction
 
 Race Condition es una **vulnerabilidad que ocurre cuando un sistema** que maneja tareas en una secuencia específica **es forzado a realizar dos o más operaciones simultáneamente**. 
@@ -170,7 +194,8 @@ moved to the staging environment where more production-like validation is
 performed to ensure that the solution works.
 * **■ Production** After staging, you then place the solution into production.
 
-
+#### EAP-FAST 
+authenticates by means of a PAC (Protected Access Credential) which can be managed dynamically by the authentication server. EAP-TLS, EAP-TTLS, PEAP are cert based. The question states the company is moving away from client and server side certificates.
 #### Dkim
 Se agrega un encabezado DKIM al mensaje que contiene la firma digital y una referencia a la clave pública correspondiente. Este encabezado indica que el mensaje ha sido firmado digitalmente utilizando DKIM.
 

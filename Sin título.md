@@ -1,0 +1,6 @@
+26                     26 BIEN
+mal III III III I -- 10 MAL 
+
+98 PREGUNTAS - 
+88 PREGUNTAS BIEN
+![](Pasted%20image%2020240209182234.png)
